@@ -1,0 +1,29 @@
+To parse the cronjob string run this command:
+------------------------------------------------------
+
+$ go run main.go "*/15 0 1,15 * 1-5 /usr/bin/find"
+
+
+
+To run all the test cases for this application, run this command:
+-------------------------------------------------------------------
+
+$ go test -v
+
+
+
+
+
+
+------------------------------------------o--------------------------------------------------
+
+To build this Golang program run:
+------------------------------------
+$ go build -o ./cronParser ./main.go
+
+
+
+Helping commands:
+--------------------
+go run main.go "*/15 0 1,15 * 1-5 /usr/bin/find"
+./cronParser "*/15 0 1,15 * 1-5 /usr/bin/find"
