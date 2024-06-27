@@ -23,5 +23,6 @@ command         /usr/bin/find
 
   Your cron job expression string should be in double quote to represent it in string format.
   So first the "go run main.go" command then the cron job expression in string format(within double quote "")
+  Here, "*/15 0 1,15 * 1-5 /usr/bin/find" is the cron job expression in string format.
   
 
